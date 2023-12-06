@@ -1,7 +1,7 @@
 <?php
-define('DB_SERVER','sqlserver432.mysql.database.azure.com');
-define('DB_USER','sravani');
-define('DB_PASS' ,'pass@12345');
+define('DB_SERVER','shoppingdbserver.mysql.database.azure.com');
+define('DB_USER','database');
+define('DB_PASS' ,'pass@123');
 define('DB_NAME', 'shopping');
 $con = mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME);
 // Check connection
